@@ -9,11 +9,5 @@
 - **Локальные и удаленные эмбеддинги**: Использование локального Ollama (Qwen3-Embedding) или внешних API.
 - **Многоканальный доступ**: Работа через Web UI, CLI и MCP (Model Context Protocol).
 
-## Технологический стек (Текущий)
-- **Backend**: Python (uv).
-- **Vector DB**: Qdrant (Docker).
-- **Embeddings**: Ollama.
-- **Chunking**: Python Package.
-
 ## Целевая аудитория
 Разработчики и AI-агенты, работающие со сложными кодовыми базами.

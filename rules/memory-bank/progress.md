@@ -10,4 +10,4 @@
     - Выбор Qdrant как основной векторной БД.
     - Выбор Ollama + Qwen3-Embedding для локальной работы.
     - Выделение Chunking в отдельный Python-пакет.
-- **Memory Bank**: Инициализированы и обновлены `projectBrief.md` и `activeContext.md`.
+- **Context Optimization**: Реорганизована структура `.kilocode` (Memory Bank, Skills, Mode Rules) для эффективной работы с Gemini 3.
