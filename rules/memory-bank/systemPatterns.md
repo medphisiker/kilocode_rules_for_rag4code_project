@@ -11,6 +11,11 @@
 - **Unified Engine API**: Единая точка входа для всех интерфейсов доступа.
 
 ## Структура проекта
-- `src/core/` — Сердце системы (бизнес-логика).
-- `src/interfaces/` — Адаптеры (MCP, CLI, Web).
-- `src/modules/` — Сменные блоки (Chunkers, VectorDB adapters).
+- `src/rag4code/core/` — Сердце системы (бизнес-логика, `RagEngine`).
+- `src/rag4code/interfaces/` — Абстрактные интерфейсы для плагинов.
+- `packages/` — Реализации плагинов (Chunkers, VectorDB adapters).
+- `hsm/` — Инструмент оркестрации стека.
+
+## Механизм расширения
+- **Entry Points**: Плагины регистрируются через стандартный механизм Python Entry Points.
+- **PluginFactory**: Универсальная фабрика для загрузки и инстанцирования плагинов по имени.
