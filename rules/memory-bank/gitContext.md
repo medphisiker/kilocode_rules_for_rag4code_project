@@ -13,6 +13,7 @@
 | `./packages/rag4code-chunker/` | Модуль чанкирования | Nested Repo |
 | `./packages/rag4code-ollama/` | Адаптер для Ollama | Nested Repo |
 | `./packages/rag4code-qdrant/` | Адаптер для Qdrant | Nested Repo |
+| `./mcp-proxy-service/` | Прокси-сервис для динамических MCP | Nested Repo |
 
 ## ⚠️ Правила работы
 
